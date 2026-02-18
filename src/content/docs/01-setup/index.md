@@ -5,19 +5,27 @@ sidebar:
   order: 0
 ---
 
-The Setup stage establishes the foundation for reliable AI-assisted development. Before writing any code, configure your environment to guide your AI coding assistant effectively.
+The Setup stage establishes the foundation for reliable AI-assisted development. Before writing any code, configure your environment to guide your AI coding assistant effectively. This stage is part of **Layer 1 planning**—work you do once and update rarely.
+
+## Why Setup Matters
+
+Every AI coding session starts with zero knowledge of your project. Without proper setup, you pay a "context loading tax" every single conversation—spending minutes explaining your tech stack, architecture, and coding conventions. Global rules and context loading strategies eliminate this tax by front-loading the context once, then auto-loading it into every session automatically.
+
+Think of it like employee onboarding: global rules are your "day 1 training" that every new team member (or AI session) receives. This upfront investment saves hours over the course of a project.
 
 ## Topics in This Stage
 
-- **[Global Rules](/agentic-coding-companion/01-setup/global-rules/)** - Define persistent rules that apply to every interaction
-- **[Context Loading](/agentic-coding-companion/01-setup/context-loading/)** - Strategies for providing relevant context to your AI assistant
+- **[Global Rules](/agentic-coding-companion/01-setup/global-rules/)** - Define persistent rules that apply to every interaction with your AI coding assistant
+- **[Context Loading](/agentic-coding-companion/01-setup/context-loading/)** - Strategies for providing relevant context—automatic vs. on-demand loading
 
 ## Key Principles
 
-- Configure rules once, benefit throughout the project
-- Load context strategically - not everything at once
-- Establish patterns your AI assistant will follow consistently
+- **Configure once, benefit forever** - Global rules are auto-loaded into every session, eliminating repetitive explanations
+- **Load context strategically** - Not everything needs to be in every session; use on-demand loading for task-specific guides
+- **Keep it concise** - Bloated rules waste context window space; include only what applies to *all* tasks
+- **Customize to your codebase** - Generic best practices matter less than your specific conventions and architecture
+- **Separate principles from processes** - Global rules are for principles; workflows belong in commands (covered in Planning Layer 2)
 
----
-
-*This is a placeholder page. Content will be distilled from course Modules 1 and 3.*
+:::note[Connection to PIV Loop]
+Setup is the foundation that enables efficient planning, implementation, and validation. Without proper global rules, every PIV loop iteration starts from scratch. See [PIV Loops](/agentic-coding-companion/04-implementation/piv-loops/) for the complete mental model.
+:::

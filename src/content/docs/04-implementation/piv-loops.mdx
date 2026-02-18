@@ -1,0 +1,203 @@
+---
+title: PIV Loops
+description: The Plan → Implement → Validate loop is the core mental model for all agentic coding work.
+sidebar:
+  order: 2
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+## Overview
+
+The PIV loop (Plan → Implement → Validate) is the fundamental mental model driving all agentic coding work. Every feature, bug fix, or refactoring task follows this cycle. Complex features may require multiple PIV loop iterations, each tackling a small piece of the whole.
+
+**The PIV Loop:**
+```
+Plan → Implement → Validate → (Iterate)
+         ↑__________________________|
+```
+
+## Why This Mental Model Matters
+
+The PIV loop establishes clear boundaries:
+- **Planning**: You are heavily involved, establishing context
+- **Implementation**: You delegate almost entirely to the AI
+- **Validation**: You return to verify and accept the work
+
+This is **not** vibe coding. The implementation is sandwiched between two phases where you're deeply involved, ensuring quality and understanding.
+
+## The Three Phases
+
+<Tabs>
+  <TabItem label="Plan">
+    **Goal:** Get on the same page with the AI about what to build.
+
+    ### Phase 1: Vibe Planning
+    Unstructured exploration with no rigid format:
+    - Research concepts and feasibility
+    - Explore architecture options
+    - Define tech stack decisions
+    - Identify integration points
+
+    ### Phase 2: Structured Plan
+    Create a detailed plan with the four pillars of context engineering:
+    - **Memory** - Leverage conversation context
+    - **RAG** - Reference external documentation
+    - **Prompt Engineering** - Be explicit to reduce assumptions
+    - **Task Management** - Clear task list for systematic execution
+
+    **Output:** A markdown plan document with goals, success criteria, task list, and validation strategy.
+  </TabItem>
+  <TabItem label="Implement">
+    **Goal:** Execute the plan task by task with minimal intervention.
+
+    ### Trust but Verify
+    - Watch tool calls loosely
+    - Check thinking tokens show understanding
+    - Ensure tasks are managed properly
+    - Don't micromanage—let it work
+
+    ### Delegate Almost Entirely
+    Implementation runs 20-60 minutes for complex features. Your involvement is minimal because the plan contains all needed context.
+
+    **Output:** Working code that follows the structured plan.
+  </TabItem>
+  <TabItem label="Validate">
+    **Goal:** Verify the implementation meets your standards.
+
+    ### AI Validation (Automated)
+    Part of the structured plan includes:
+    - Unit tests
+    - Integration tests
+    - Linting
+    - Type checking
+
+    ### Human Validation
+    After AI completes, you:
+    - Perform manual code review
+    - Run the application manually
+    - Verify acceptance criteria
+    - Ask clarifying questions about changes
+
+    **Output:** Confidence that the feature works correctly.
+  </TabItem>
+</Tabs>
+
+## Layer 1 vs Layer 2 Planning
+
+Planning has two distinct layers:
+
+| Layer | When It Happens | Output | Update Frequency |
+|-------|-----------------|--------|------------------|
+| **Layer 1** | Once per project | Global rules, PRD | Rarely |
+| **Layer 2** | Every PIV loop | Structured plan | Every feature |
+
+Layer 1 establishes the stable foundation. Layer 2 creates feature-specific implementation plans.
+
+## The Four Pillars of Context Engineering
+
+When creating structured plans, apply these four pillars:
+
+### 1. Memory
+Leverage conversation context from vibe planning. The AI uses everything discussed to create the plan.
+
+### 2. RAG (Retrieval-Augmented Generation)
+Reference external documentation:
+- Library documentation
+- Past projects
+- Architecture guides
+- On-demand context
+
+### 3. Prompt Engineering
+Be explicit to reduce assumptions:
+- Clear success criteria
+- Specific file paths
+- Exact validation commands
+- Detailed task descriptions
+
+### 4. Task Management
+Create a clear task list:
+- Ordered by dependency
+- Each task is atomic
+- Includes verification criteria
+- Enables systematic execution
+
+## Iteration and Evolution
+
+The PIV loop is truly a loop:
+
+```
+Plan → Implement → Validate
+         ↑            │
+         └── Iterate ←┘
+```
+
+After validation:
+- If issues found → return to planning
+- If feature works → commit and start next feature
+- If system failed → evolve the system before retrying
+
+:::note[Evolving Your System]
+Mistakes are opportunities. When something goes wrong:
+1. Fix the immediate issue
+2. Update your system (rules, commands, templates)
+3. Retry with the improved system
+
+This is how your agentic coding system improves over time.
+:::
+
+## How Complex Are Single PIV Loops?
+
+What can you accomplish in one PIV loop? It depends on:
+
+1. **Code base structure** - How well organized for AI coding
+2. **Planning quality** - How much you reduced AI assumptions
+
+As you gain experience, you'll develop intuition for what fits in one loop vs. requiring multiple iterations. Start with smaller tasks and expand as you learn.
+
+:::tip[When in Doubt, Go Smaller]
+If a feature seems too complex for one PIV loop, break it into multiple loops. Small iterations are more reliable than ambitious ones.
+:::
+
+## The Spectrum of Involvement
+
+PIV loops exist on a spectrum:
+
+| Stage | Manual (Learning) | Systematized (Expert) |
+|-------|-------------------|----------------------|
+| **Plan** | Type prompts manually | `/prime` → `/plan` commands |
+| **Implement** | Prompt-based execution | `/execute` command |
+| **Validate** | Manual review | Automated validation + code review command |
+
+As you build your system, you move from manual prompting to command-driven workflows.
+
+## Quick Reference
+
+### PIV Loop Checklist
+
+**Plan Phase:**
+- [ ] Vibe plan to explore approach
+- [ ] Create structured plan with four pillars
+- [ ] Validate plan before implementation
+- [ ] Commit plan as save state
+
+**Implement Phase:**
+- [ ] Clear conversation for fresh context
+- [ ] Run execute command with plan
+- [ ] Watch loosely for correct behavior
+- [ ] Let AI run validation commands
+
+**Validate Phase:**
+- [ ] Review all code changes
+- [ ] Run application manually
+- [ ] Verify acceptance criteria
+- [ ] Ask clarifying questions if needed
+- [ ] Commit implementation
+
+### Remember
+
+- PIV loop = Plan → Implement → Validate → Iterate
+- Planning heavy, implementation light, validation thorough
+- You're involved in planning and validation, not implementation
+- Mistakes evolve the system, not just fix the problem
+- Small iterations beat ambitious ones

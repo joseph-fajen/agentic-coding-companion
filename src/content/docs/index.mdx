@@ -18,34 +18,62 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## The Agentic Coding Workflow
 
-Follow these six stages for reliable, repeatable AI-assisted development.
+Follow these six stages for reliable, repeatable AI-assisted development. Each stage builds on the previous, culminating in a system that improves with every use.
 
 <CardGrid>
   <Card title="1. Setup" icon="setting">
-    Configure global rules and context loading strategies before you start coding.
+    Configure global rules and context loading strategies. Work you do once, benefit from forever.
+    [Get started](/agentic-coding-companion/01-setup/)
   </Card>
   <Card title="2. Planning (Layer 1)" icon="document">
-    Define project scope, create PRDs, and establish AI-optimized templates.
+    Define project scope with PRDs and establish AI-optimized templates. Done once per project.
+    [Learn more](/agentic-coding-companion/02-planning-layer-1/)
   </Card>
   <Card title="3. Planning (Layer 2)" icon="list-format">
-    Break down tasks, create structured plans, and prepare for implementation.
+    Break down features into structured plans using commands. Done every PIV loop.
+    [Explore](/agentic-coding-companion/03-planning-layer-2/)
   </Card>
   <Card title="4. Implementation" icon="rocket">
-    Execute your plan using the PIV loop methodology.
+    Execute your structured plan with the /execute command. Delegate to your AI assistant.
+    [View](/agentic-coding-companion/04-implementation/)
   </Card>
   <Card title="5. Validation" icon="approve-check">
-    Review code, run tests, and verify against acceptance criteria.
+    AI handles automated testing; you perform code review and manual testing.
+    [Understand](/agentic-coding-companion/05-validation/)
   </Card>
   <Card title="6. Iteration" icon="random">
-    Evolve your system based on learnings and fix patterns, not just bugs.
+    Evolve your system based on learnings. Fix the system, not just the bugs.
+    [Read](/agentic-coding-companion/06-iteration/)
   </Card>
 </CardGrid>
 
+## The PIV Loop
+
+The Plan-Implement-Validate loop is the core mental model for all agentic coding work:
+
+- **Plan** - Create structured, AI-optimized plans through vibe planning then formalization
+- **Implement** - Delegate execution to your AI coding assistant with the execute command
+- **Validate** - AI runs automated tests; you review code and test manually
+- **Iterate** - Evolve your system based on learnings, then start the next loop
+
+Each iteration makes your system more reliable. See [PIV Loops](/agentic-coding-companion/04-implementation/piv-loops/) for the complete mental model.
+
 ## How to Use This Guide
 
-1. **During active work** - Open the relevant stage and scan the checklist
+1. **During active work** - Open the relevant stage and scan the quick reference
 2. **Looking for specifics** - Use search (Ctrl/Cmd + K) to find principles or commands
-3. **Learning the workflow** - Read through stages sequentially
+3. **Learning the workflow** - Read through stages sequentially, starting with [Setup](/agentic-coding-companion/01-setup/)
+4. **Building commands** - Copy code blocks directly into your `.claude/commands/` folder
+
+## Key Concepts
+
+| Concept | Description |
+|---------|-------------|
+| **Global Rules** | CLAUDE.md or agents.md - auto-loaded every session |
+| **On-Demand Context** | Reference guides loaded by commands for specific task types |
+| **Structured Plan** | Feature-specific implementation plan consumed by /execute |
+| **Commands** | Packaged workflows in `.claude/commands/` invoked with /name |
+| **Save States** | Git commits before/after major changes for safe iteration |
 
 ---
 
