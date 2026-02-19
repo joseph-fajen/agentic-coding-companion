@@ -67,9 +67,9 @@ If any command fails:
 
 ### 4. Final Verification
 Before completing:
-- [ ] All tasks from plan completed
-- [ ] All tests created and passing
-- [ ] All validation commands pass
+- All tasks from plan completed
+- All tests created and passing
+- All validation commands pass
 
 ## Output Report
 Provide summary:
@@ -189,9 +189,9 @@ After every 3 tasks:
 
 ### Before Running Execute
 
-- [ ] Plan is complete and committed
-- [ ] Conversation cleared for fresh context
-- [ ] You have time to let it run (can be 20-60 minutes)
+- Plan is complete and committed
+- Conversation cleared for fresh context
+- You have time to let it run (can be 20-60 minutes)
 
 ### During Execution
 

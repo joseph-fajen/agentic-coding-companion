@@ -183,13 +183,13 @@ How can I evolve my validate command or global rules?
 
 ### Evolution Checklist
 
-- [ ] Identify the issue clearly
-- [ ] Apply meta reasoning (don't just fix)
-- [ ] Get AI recommendations
-- [ ] Be selective (reject over-engineering)
-- [ ] Update appropriate system component
-- [ ] Commit with descriptive message
-- [ ] Validate on next PIV loop
+- Identify the issue clearly
+- Apply meta reasoning (don't just fix)
+- Get AI recommendations
+- Be selective (reject over-engineering)
+- Update appropriate system component
+- Commit with descriptive message
+- Validate on next PIV loop
 
 ### System Components to Evolve
 

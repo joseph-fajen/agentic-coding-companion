@@ -173,10 +173,10 @@ Sometimes you want to run validation outside of the execute command:
 
 ## Output
 Provide summary:
-- [ ] Linting passed
-- [ ] Type checking passed
-- [ ] Unit tests passed
-- [ ] Integration tests passed
+- Linting passed
+- Type checking passed
+- Unit tests passed
+- Integration tests passed
 ```
 
 Use this after fixing bugs or making changes outside of a full PIV loop.

@@ -78,11 +78,11 @@ Issues Found? → Fix & Revalidate
 
 ### After Implementation
 
-- [ ] AI ran all validation from structured plan
-- [ ] Review code changes (diffs or AI summary)
-- [ ] Ask clarifying questions
-- [ ] Run manual tests
-- [ ] Commit when confident
+- AI ran all validation from structured plan
+- Review code changes (diffs or AI summary)
+- Ask clarifying questions
+- Run manual tests
+- Commit when confident
 
 ### Optional: System Review
 

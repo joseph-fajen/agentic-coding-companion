@@ -142,12 +142,12 @@ Include at least one complete example of each pattern:
 
 ### What to Look For
 
-- [ ] Clear directory structure
-- [ ] Example implementations for each pattern
-- [ ] Pre-configured development tooling
-- [ ] Documentation in README
-- [ ] Global rules file for AI guidance
-- [ ] Easy local development setup
+- Clear directory structure
+- Example implementations for each pattern
+- Pre-configured development tooling
+- Documentation in README
+- Global rules file for AI guidance
+- Easy local development setup
 
 ### Remember
 

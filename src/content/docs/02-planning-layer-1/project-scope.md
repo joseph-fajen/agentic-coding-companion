@@ -125,21 +125,21 @@ If building an agent, define the tools/capabilities.
 
 ### Vibe Planning Checklist
 
-- [ ] Describe your idea in natural language
-- [ ] Let AI research feasibility
-- [ ] Inject your own research and preferences
-- [ ] Clarify misconceptions as they arise
-- [ ] Ask AI for options with pros/cons when unsure
-- [ ] Answer AI's clarifying questions
+- Describe your idea in natural language
+- Let AI research feasibility
+- Inject your own research and preferences
+- Clarify misconceptions as they arise
+- Ask AI for options with pros/cons when unsure
+- Answer AI's clarifying questions
 
 ### PRD Creation Checklist
 
-- [ ] Request PRD with specific sections
-- [ ] Ask for clarifying questions before creation
-- [ ] Review every section after creation
-- [ ] Refine sections that don't match your vision
-- [ ] Simplify verbose sections
-- [ ] Ensure alignment with global rules
+- Request PRD with specific sections
+- Ask for clarifying questions before creation
+- Review every section after creation
+- Refine sections that don't match your vision
+- Simplify verbose sections
+- Ensure alignment with global rules
 
 ### Remember
 

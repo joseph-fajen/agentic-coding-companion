@@ -69,10 +69,10 @@ If implementation fails badly, revert to the plan commit and try again with evol
 
 ### Pre-Implementation Checklist
 
-- [ ] Structured plan is complete and reviewed
-- [ ] Plan is committed to git (save state)
-- [ ] Conversation cleared for fresh context
-- [ ] Execute command ready to invoke
+- Structured plan is complete and reviewed
+- Plan is committed to git (save state)
+- Conversation cleared for fresh context
+- Execute command ready to invoke
 
 ### During Implementation
 
@@ -83,10 +83,10 @@ If implementation fails badly, revert to the plan commit and try again with evol
 
 ### Post-Implementation
 
-- [ ] AI completed all tasks
-- [ ] AI ran validation commands from plan
-- [ ] Commit implementation as save state
-- [ ] Ready for human validation phase
+- AI completed all tasks
+- AI ran validation commands from plan
+- Commit implementation as save state
+- Ready for human validation phase
 
 ### Remember
 

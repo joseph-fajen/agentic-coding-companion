@@ -153,11 +153,11 @@ Create specialized review commands for different focuses:
 
 ### Code Review Checklist
 
-- [ ] Run code review command
-- [ ] Check high severity issues first
-- [ ] Fix critical issues before committing
-- [ ] Verify fixes with validation
-- [ ] Commit when review passes
+- Run code review command
+- Check high severity issues first
+- Fix critical issues before committing
+- Verify fixes with validation
+- Commit when review passes
 
 ### What to Look For
 

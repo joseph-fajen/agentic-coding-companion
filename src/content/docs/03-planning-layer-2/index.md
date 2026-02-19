@@ -88,12 +88,12 @@ Commands make your workflow repeatable, shareable, and improvable.
 
 ### Layer 2 Checklist
 
-- [ ] Run `/prime` to load project context
-- [ ] Explore feature through vibe planning
-- [ ] Create structured plan with `/plan`
-- [ ] Review plan for correctness and conciseness
-- [ ] Iterate on plan if needed
-- [ ] Commit plan as save state before execution
+- Run `/prime` to load project context
+- Explore feature through vibe planning
+- Create structured plan with `/plan`
+- Review plan for correctness and conciseness
+- Iterate on plan if needed
+- Commit plan as save state before execution
 
 ### When to Use Layer 2
 

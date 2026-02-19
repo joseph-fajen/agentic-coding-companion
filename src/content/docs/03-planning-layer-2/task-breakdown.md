@@ -138,22 +138,22 @@ The structured plan is consumed by another AI agent (the execute command). Forma
 
 ### Vibe Planning Checklist
 
-- [ ] Prime the AI on your codebase first
-- [ ] Reference PRD or feature description
-- [ ] Let AI propose an approach
-- [ ] Disagree if the approach is wrong
-- [ ] Inject your knowledge and preferences
-- [ ] Ask clarifying questions
-- [ ] Keep scope small for this iteration
+- Prime the AI on your codebase first
+- Reference PRD or feature description
+- Let AI propose an approach
+- Disagree if the approach is wrong
+- Inject your knowledge and preferences
+- Ask clarifying questions
+- Keep scope small for this iteration
 
 ### Structured Plan Checklist
 
-- [ ] Clear feature description
-- [ ] Files to modify/create listed
-- [ ] Tasks ordered by dependency
-- [ ] Each task is atomic and testable
-- [ ] Validation strategy defined
-- [ ] Plan length is reasonable (500-700 lines max)
+- Clear feature description
+- Files to modify/create listed
+- Tasks ordered by dependency
+- Each task is atomic and testable
+- Validation strategy defined
+- Plan length is reasonable (500-700 lines max)
 
 ### Common Vibe Planning Prompts
 
