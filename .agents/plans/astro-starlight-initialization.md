@@ -381,7 +381,7 @@ Follow these six stages for reliable, repeatable AI-assisted development.
 
 ---
 
-*Content distilled from the [Dynamous Agentic Coding Course](https://dynamous.com).*
+*Content distilled from the [Dynamous Agentic Coding Course](https://dynamous.ai/).*
 ```
 
 ### Task 6: CREATE src/content/docs/01-setup/ directory and pages
