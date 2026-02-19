@@ -5,8 +5,6 @@ sidebar:
   order: 3
 ---
 
-## Overview
-
 System review is **not** code review. Code review finds bugs in code; system review finds bugs in your AI coding workflow. By analyzing divergence between structured plans and actual implementations, you identify opportunities to improve your rules, commands, and templates.
 
 This is the most powerful part of validation—systematizing the improvement of your system itself.

@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-## Overview
-
 Your PRD (Product Requirements Document) is the highest-level document outlining the full scope of work for your MVP. It serves as a north star that you reference constantly during development—guiding which features to build next and ensuring alignment throughout the project.
 
 ## What Is a PRD?

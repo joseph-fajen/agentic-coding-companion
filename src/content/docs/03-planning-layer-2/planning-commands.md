@@ -5,8 +5,6 @@ sidebar:
   order: 2
 ---
 
-## Overview
-
 Commands are packaged processes that define your repeatable workflows. Instead of typing the same prompts repeatedly, you create markdown files that your AI coding assistant executes with a simple slash command. Commands are the foundation of your system.
 
 **The golden rule:** When you find yourself typing something more than 3 times, turn it into a command.

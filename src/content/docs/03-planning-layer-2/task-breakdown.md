@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-## Overview
-
 Task breakdown is the process of transforming a feature idea into an executable plan. It happens in two phases: **vibe planning** (exploration) and **structured planning** (formalization). Good task breakdown enables your AI coding assistant to work systematically without losing context.
 
 ## The Two Phases

@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-## Overview
-
 Global rules are persistent instructions stored in configuration files that your AI coding assistant reads at the start of every session. They establish coding conventions, architectural patterns, and behavioral guidelines that remain constant across all tasks. Think of them as your "day 1 onboarding" for the AI—everything it needs to know on its first day working with your codebase.
 
 ## What Are Global Rules?

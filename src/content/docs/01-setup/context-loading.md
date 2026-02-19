@@ -5,8 +5,6 @@ sidebar:
   order: 2
 ---
 
-## Overview
-
 Context loading determines what information your AI coding assistant has access to during a session. Layer 1 planning includes both **automatic context** (global rules) and **on-demand context** (task-type specific guides). Understanding when to use each strategy is key to efficient AI-assisted development.
 
 ## The Two Loading Strategies

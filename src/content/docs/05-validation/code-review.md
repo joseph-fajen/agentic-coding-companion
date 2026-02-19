@@ -5,8 +5,6 @@ sidebar:
   order: 2
 ---
 
-## Overview
-
 Code review is Layer 5 of the validation pyramid—the human verification layer. You can think of it like the prime command: analyzing the codebase, but instead of gathering context, you're looking for issues. Create commands to systematize this process.
 
 ## Why Code Review Matters

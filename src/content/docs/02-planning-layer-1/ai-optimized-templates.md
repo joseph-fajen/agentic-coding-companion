@@ -5,8 +5,6 @@ sidebar:
   order: 2
 ---
 
-## Overview
-
 AI-optimized templates are starter codebases designed specifically for AI coding assistants to work with effectively. Instead of starting from scratch every time, you can clone a template that already includes best practices for infrastructure, logging, configuration, and code organization.
 
 ## Why Use Templates?

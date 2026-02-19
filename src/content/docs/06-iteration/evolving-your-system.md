@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-## Overview
-
 System evolution is the process of improving your AI coding workflow based on observed patterns. When you encounter issues during PIV loops, you apply **meta reasoning** to identify what part of your system allowed the issue, then update that component to prevent recurrence.
 
 ## The Meta Reasoning Approach

@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-## Overview
-
 The validation pyramid defines 5 layers of validation that close every PIV loop. Layers 1-4 are handled by your AI coding assistant as part of the structured plan. Layer 5 is your responsibility as the human in the loop.
 
 ## The 5 Layers

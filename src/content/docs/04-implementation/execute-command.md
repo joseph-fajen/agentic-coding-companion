@@ -5,8 +5,6 @@ sidebar:
   order: 1
 ---
 
-## Overview
-
 The execute command initiates implementation by pointing your AI coding assistant at a structured plan. It tells the AI how to be thorough and how to handle each task. Because your structured plan already contains all the context, the execute command itself is simple.
 
 ## What the Execute Command Does
